@@ -78,7 +78,7 @@ export default function Home() {
                             <ReadCvLogo className="text-white" size={28}/>
                         </Link>
                         <Link
-                            href="https://www.linkedin.com/in/mathias-mihalcea-70b99a176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            href="https://www.linkedin.com/in/mathias-mihalcea/"
                             target="_blank"
                             rel="noopener noreferrer">
                             <LinkedinLogo className="text-white" size={28}/>
