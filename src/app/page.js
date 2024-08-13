@@ -71,7 +71,12 @@ export default function Home() {
                             me
                             more
                         </button>
-                        <ReadCvLogo className="text-white" size={28}/>
+                        <Link
+                            href="/CV.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <ReadCvLogo className="text-white" size={28}/>
+                        </Link>
                         <Link
                             href="https://www.linkedin.com/in/mathias-mihalcea-70b99a176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                             target="_blank"
