@@ -29,7 +29,7 @@ export default function Home() {
     const isInView = useInView(ref, {once: true});
 
     return (
-        <main className="px-8 py-8 xl:text-center xl:pt-24">
+        <main className="px-4 py-8 xl:px-8 xl:text-center xl:pt-24">
             <section className="xl:pb-24">
                 <div>
                     <div className="max-w-40 mb-8 relative xl:mx-auto">

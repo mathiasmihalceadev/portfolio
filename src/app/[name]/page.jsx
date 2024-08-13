@@ -31,7 +31,7 @@ export default function Project() {
     }
 
     return (
-        <main className="text-white tracking-tighter px-8 py-8 xl:max-w-[1020px] xl:mx-auto">
+        <main className="text-white tracking-tighter px-4 py-8 xl:px-8 xl:max-w-[1020px] xl:mx-auto">
             <div className="container-box relative mb-6">
                 <div className="small-container aspect-video">
                     <Swiper
