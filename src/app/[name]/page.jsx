@@ -95,6 +95,14 @@ export default function Project() {
             <div className="text-stone-400 tracking-tighter font-medium text-lg">
                 <div dangerouslySetInnerHTML={{__html: project.description}}/>
             </div>
+            <section>
+                <div>
+                    <p className="text-stone-500 text-sm mt-12 tracking-tighter">Website built with Next.js, Tailwind CSS, Framer Motion,
+                        Swiper,
+                        Phosphor
+                        Icons and JSON.</p>
+                </div>
+            </section>
         </main>
     );
 }

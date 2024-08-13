@@ -78,7 +78,12 @@ export default function Home() {
                             rel="noopener noreferrer">
                             <LinkedinLogo className="text-white" size={28}/>
                         </Link>
+                        <Link
+                            href="https://github.com/mathiasmihalceadev"
+                            target="_blank"
+                            rel="noopener noreferrer">
                         <GithubLogo className="text-white" size={28}/>
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -105,10 +110,10 @@ export default function Home() {
             </section>
             <section>
                 <div>
-                    <p className="text-stone-500 text-sm mt-12">Website built with Next.js, Tailwind CSS, Framer Motion,
-                        Swiper and
+                    <p className="text-stone-500 text-sm mt-12 tracking-tighter">Website built with Next.js, Tailwind CSS, Framer Motion,
+                        Swiper,
                         Phosphor
-                        Icons.</p>
+                        Icons and JSON.</p>
                 </div>
             </section>
         </main>

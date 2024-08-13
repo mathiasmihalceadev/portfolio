@@ -33,9 +33,13 @@
       "Local Storage",
       "Pinia"
     ],
-    "description": "<p>Vue.js was the first JavaScript framework I learned, and I consider it the best (I will die on this hill). After completing a Vue course, to master its ups and downs, I decided to build a note-taking app. To focus on diving deep into this front-end framework, I kept the backend simple—actually, I didn’t use a backend at all, opting to store all the data in local storage.</p> <br><p>I drew design inspiration from Dribbble and then got to work. Through this project, I practiced my JavaScript skills while deepening my understanding of key Vue concepts such as the virtual DOM, computed properties and watchers, event handling, and routing with Vue Router. I also created a store using Pinia.</p><br> <h2 class='text-2xl' style='color: #d6d3d1'>Key Features</h2><ul><li>CRUD operations (frontend only) for notes and to-dos.</li>\n        <li>Trash functionality.</li>\n        <li>Filtering notes based on tags.</li>\n        <li>Clean and modern layout.</li>\n        <li>Search functionality.</li>\n    </ul>",
+    "description": "<p>Vue.js was the first JavaScript framework I ever learned and I still consider it to be the best, but this is a discussion for another time. After completing a Vue course, to master its ups and downs, I decided to build a note-taking app. To focus on diving deep into this front-end framework, I kept the backend simple—actually, I didn’t use a backend at all, opting to store all the data in local storage.</p> <br><p>I drew design inspiration from Dribbble and then got to work. Through this project, I practiced my JavaScript skills while deepening my understanding of key Vue concepts such as the virtual DOM, computed properties and watchers, event handling, and routing with Vue Router. I also created a store using Pinia.</p><br> <h2 class='text-2xl' style='color: #d6d3d1'>Key Features</h2><ul><li>CRUD operations (frontend only) for notes and to-dos.</li>\n        <li>Trash functionality.</li>\n        <li>Filtering notes based on tags.</li>\n        <li>Clean and modern layout.</li>\n        <li>Search functionality.</li>\n    </ul>",
     "imgUrls": [
-      "/note-link/1.jpg"
+      "/note-link/main.jpg",
+      "/note-link/1.jpg",
+      "/note-link/3.jpg",
+      "/note-link/2.jpg",
+      "/note-link/4.jpg"
     ],
     "url": "https://github.com/mathiasmihalceadev/note-link"
   },
