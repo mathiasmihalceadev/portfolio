@@ -72,7 +72,7 @@ export default function Home() {
                             more
                         </button>
                         <Link
-                            href="/CV.pdf"
+                            href="/Resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer">
                             <ReadCvLogo className="text-white" size={28}/>
