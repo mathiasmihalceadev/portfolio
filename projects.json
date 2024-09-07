@@ -126,6 +126,39 @@
     "url": "https://bestpigeons4you.ro/"
   },
   {
+    "name": "Medicinal Ecommerce Website Redesign",
+    "slug": "medicinal-ecommerce-redesign",
+    "technologies": [
+      "Wordpress",
+      "Figma",
+      "Elementor",
+      "CSS",
+      "JavaScript",
+      "PHP"
+    ],
+    "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I created the design from scratch in Figma and structured the information given by the client in a modern manner. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
+    "imgUrls": [
+      "/medicinal.jpg"
+    ],
+    "url": "https://ayurmed.ro/"
+  },
+  {
+    "name": "Cargo Transport Website",
+    "slug": "cargo-transport-website",
+    "technologies": [
+      "Wordpress",
+      "Elementor",
+      "CSS",
+      "JavaScript",
+      "PHP"
+    ],
+    "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I also installed the theme and adapted the design to meet the client's specific needs. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
+    "imgUrls": [
+      "/transport.jpg"
+    ],
+    "url": "https://ayurmed.ro/"
+  },
+  {
     "name": "Townhall Website",
     "slug": "townhall-website",
     "technologies": [
@@ -210,7 +243,7 @@
     "slug": "beauty-spa-website",
     "technologies": [
       "Wordpress",
-      "Elementor",
+      "Gutenberg",
       "CSS",
       "JavaScript",
       "PHP"
@@ -236,21 +269,5 @@
       "/complex.jpg"
     ],
     "url": "https://bucegi12.ro/"
-  },
-  {
-    "name": "Medicinal Ecommerce Website Redesign",
-    "slug": "medicinal-ecommerce-redesign",
-    "technologies": [
-      "Wordpress",
-      "Elementor",
-      "CSS",
-      "JavaScript",
-      "PHP"
-    ],
-    "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I also installed the theme and adapted the design to meet the client's specific needs. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
-    "imgUrls": [
-      "/medicinal.jpg"
-    ],
-    "url": "https://ayurmed.serano.ro/"
   }
 ]
