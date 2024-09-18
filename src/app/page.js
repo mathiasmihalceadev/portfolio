@@ -72,7 +72,7 @@ export default function Home() {
                             more
                         </button>
                         <Link
-                            href="/resume_mathias_alexander_mihalcea.pdf"
+                            href="/Resume%20Mathias%20Alexander%20Mihalcea.pdf"
                             target="_blank"
                             rel="noopener noreferrer">
                             <ReadCvLogo className="text-white" size={28}/>
