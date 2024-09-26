@@ -30,8 +30,8 @@
     "technologies": [
       "Vue.js",
       "Tailwind CSS",
-      "Local Storage",
-      "Pinia"
+      "Pinia",
+      "Local Storage"
     ],
     "description": "<p>Vue.js was the first JavaScript framework I ever learned and I still consider it to be the best, but this is a discussion for another time. After completing a Vue course, to master its ups and downs, I decided to build a note-taking app. To focus on diving deep into this front-end framework, I kept the backend simple—actually, I didn’t use a backend at all, opting to store all the data in local storage.</p> <br><p>I drew design inspiration from Dribbble and then got to work. Through this project, I practiced my JavaScript skills while deepening my understanding of key Vue concepts such as the virtual DOM, computed properties and watchers, event handling, and routing with Vue Router. I also created a store using Pinia.</p><br> <h2 class='text-2xl' style='color: #d6d3d1'>Key Features</h2><ul><li>CRUD operations (frontend only) for notes and to-dos.</li>\n        <li>Trash functionality.</li>\n        <li>Filtering notes based on tags.</li>\n        <li>Clean and modern layout.</li>\n        <li>Search functionality.</li>\n    </ul>",
     "imgUrls": [
@@ -47,11 +47,11 @@
     "name": "SwagnSend First Website",
     "slug": "swagnsend-first-design",
     "technologies": [
-      "Wordpress",
-      "WooCommerce",
-      "Plugin Development",
+      "WordPress",
       "PHP",
       "SASS",
+      "WooCommerce",
+      "Plugin Development",
       "jQuery",
       "Ajax"
     ],
@@ -65,10 +65,10 @@
     "name": "SwagnSend New Design",
     "slug": "swagnsend-new-design",
     "technologies": [
-      "Wordpress",
-      "WooCommerce",
-      "Plugin Development",
+      "WordPress",
       "PHP",
+      "Plugin Development",
+      "WooCommerce",
       "SASS",
       "jQuery",
       "Ajax"
@@ -83,11 +83,14 @@
     "name": "Fast Track Digital Website",
     "slug": "fast-track-digital",
     "technologies": [
-      "Wordpress",
+      "WordPress",
       "Elementor",
-      "PHP"
+      "PHP",
+      "HTML",
+      "CSS",
+      "JavaScript"
     ],
-    "description": "<p>I received the design from Code Baker Web in Figma and was tasked with implementing it in Elementor for a pixel-perfect result. While most of the work was straightforward, I had to use some shortcodes for elements that couldn't be handled directly in Elementor. I also installed essential plugins for image optimization and caching.</p>",
+    "description": "<p>I received the design from MBE Web Services in Figma and was tasked with implementing it in Elementor for a pixel-perfect result. While most of the work was straightforward, I had to use some shortcodes for elements that couldn't be handled directly in Elementor. I also installed essential plugins for image optimization and caching.</p>",
     "imgUrls": [
       "/fast.jpg"
     ],
@@ -97,9 +100,12 @@
     "name": "Online Multistore",
     "slug": "online-multistore",
     "technologies": [
-      "Wordpress",
+      "WordPress",
+      "PHP",
       "Elementor",
-      "PHP"
+      "HTML",
+      "CSS",
+      "JavaScript"
     ],
     "description": "<p>The main challenge of this project was syncing WooCommerce products across two websites. Both sites had the same catalog of around 10,000 products, but each followed different shopping rules. For example, one site required a minimum order of $1,000, and products with stock below 50 on one site or below 10 on the other couldn't be purchased.</p><br>\n\n<p>To address this, I first wrote a script that added a custom post meta to products on both websites, using their IDs for identification. Then, I set up a WordPress Multisite network and developed a plugin to sync stock levels automatically. Whenever a product was purchased on one site, the stock was updated on the other. Additionally, if a product was created, updated, trashed, or deleted on one site, the same action was mirrored on the second site.</p>\n\n<br><p>Finally, I customized the installed theme using Elementor, along with some custom CSS and JavaScript, to meet the client's specific needs.</p>",
     "imgUrls": [
@@ -111,10 +117,10 @@
     "name": "Online Bidding Platform",
     "slug": "online-bidding-platform",
     "technologies": [
-      "Wordpress",
-      "WooCommerce",
-      "Plugin Development",
+      "WordPress",
       "PHP",
+      "Plugin Development",
+      "WooCommerce",
       "jQuery",
       "Ajax",
       "CSS"
@@ -130,13 +136,12 @@
     "slug": "medicinal-ecommerce-redesign",
     "technologies": [
       "Wordpress",
-      "Figma",
-      "Elementor",
       "CSS",
+      "Elementor",
       "JavaScript",
       "PHP"
     ],
-    "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I created the design from scratch in Figma and structured the information given by the client in a modern manner. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
+    "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
     "imgUrls": [
       "/medicinal.jpg"
     ],
@@ -146,13 +151,14 @@
     "name": "Cargo Transport Website",
     "slug": "cargo-transport-website",
     "technologies": [
-      "Wordpress",
+      "WordPress",
+      "Figma",
       "Elementor",
       "CSS",
       "JavaScript",
       "PHP"
     ],
-    "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I also installed the theme and adapted the design to meet the client's specific needs. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
+    "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I created the design from scratch in Figma and structured the information given by the client in a modern manner. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
     "imgUrls": [
       "/transport.jpg"
     ],
@@ -192,7 +198,7 @@
   },
   {
     "name": "Non-Profit Organization Website",
-    "slug": "smart-apartament-complex",
+    "slug": "non-profit-organization",
     "technologies": [
       "Wordpress",
       "Elementor",

@@ -63,31 +63,34 @@ export default function Home() {
                     <h1 className="tracking-tighter text-stone-100 font-medium text-4xl mb-2">I build websites, web apps
                         and...
                         everything web related.</h1>
-                    <p className="text-stone-400 tracking-tighter font-medium text-lg mb-8">Web developer, passionate
+                    <p className="text-stone-400 tracking-tighter font-medium text-lg mb-8">Full Stack Developer, passionate
                         about
                         creating. <br/> I love a challenge and I love working with people and for people.</p>
                     <div className="flex items-center gap-6 mb-16 xl:justify-center">
-                        <button className="bg-stone-100 tracking-tighter px-4 py-1 text-lg font-medium rounded-lg">Ask
+                        <Link href="mailto:mathias.mihalcea@gmail.com" target="_blank"
+                              rel="noopener noreferrer">
+                        <button className="bg-stone-100 tracking-tighter px-4 py-1 text-lg font-medium rounded-lg transition transform hover:translate-y-[-4px] duration-200">Ask
                             me
                             more
                         </button>
+                        </Link>
                         <Link
                             href="/Resume%20Mathias%20Alexander%20Mihalcea.pdf"
                             target="_blank"
                             rel="noopener noreferrer">
-                            <ReadCvLogo className="text-white" size={28}/>
+                            <ReadCvLogo className="text-white transition transform hover:translate-y-[-4px] duration-200" size={28}/>
                         </Link>
                         <Link
                             href="https://www.linkedin.com/in/mathias-mihalcea/"
                             target="_blank"
                             rel="noopener noreferrer">
-                            <LinkedinLogo className="text-white" size={28}/>
+                            <LinkedinLogo className="text-white transition transform hover:translate-y-[-4px] duration-200" size={28}/>
                         </Link>
                         <Link
                             href="https://github.com/mathiasmihalceadev"
                             target="_blank"
                             rel="noopener noreferrer">
-                        <GithubLogo className="text-white" size={28}/>
+                        <GithubLogo className="text-white transition transform hover:translate-y-[-4px] duration-200" size={28}/>
                         </Link>
                     </div>
                 </div>
@@ -106,7 +109,13 @@ export default function Home() {
                                 <div
                                     className="rounded-xl absolute inset-0 bg-gradient-to-t from-stone-900 to-transparent"></div>
                                 <ProjectName>
-                                    <h2 className="text-stone-100 relative tracking-tighter font-medium text-2xl p-4">{project.name}</h2>
+                                    <h2 className="text-stone-100 relative tracking-tighter font-medium text-2xl px-4 pb-2 text-start">{project.name}</h2>
+                                    <ul className="flex flex-wrap relative px-4 pb-2 tracking-tighter text-sm">
+                                        {project.technologies.slice(0,3).map((technology) => (
+                                            <li key={technology}
+                                                className="mr-2 mb-2 bg-stone-100 text-stone-900 font-semibold py-1 px-2 rounded-lg">{technology}</li>
+                                        ))}
+                                    </ul>
                                 </ProjectName>
                             </div>
                         </Link>
@@ -115,7 +124,8 @@ export default function Home() {
             </section>
             <section>
                 <div>
-                    <p className="text-stone-500 text-sm mt-12 tracking-tighter">Website built with Next.js, Tailwind CSS, Framer Motion,
+                    <p className="text-stone-500 text-sm mt-12 tracking-tighter">Website built with Next.js, Tailwind
+                        CSS, Framer Motion,
                         Swiper,
                         Phosphor
                         Icons and JSON.</p>
