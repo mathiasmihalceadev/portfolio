@@ -13,35 +13,32 @@
     ],
     "description": "<p>This project, Church Connect, started as part of my college degree but quickly evolved into something much more significant and rewarding. Coming from a religious community, I noticed many areas where communication and planning could be improved. This realization inspired me to develop Church Connect, a platform designed to enhance how religious communities interact and organize events.</p><br>\n\n<p>The primary aim of this project was not only to address a real-world need but also to hone my skills in modern web development technologies, particularly Node.js and React. I wanted to create a fully functional application that would allow me to practice and apply best practices in software development.</p>\n\n<br></p>For the backend, I chose Node.js with Express to build a RESTful API. I meticulously organized the codebase, breaking it down into routes, controllers, services, and data layers. This approach ensured that the application was not only clean and easy to understand but also scalable and secure. It followed industry best practices, such as the Model-View-Controller (MVC) architecture and SOLID principles, which helped me improve my problem-solving skills and develop a robust application structure.\n\n</p><br><p>On the frontend, I worked extensively with React, leveraging React Query to handle data fetching efficiently. I focused on creating reusable components and building a user-friendly interface using ShadCN UI, a modern design system. This allowed me to design a complex, yet intuitive, user experience that could be easily adapted and extended as needed.<p><br><p>\n\nOverall, Church Connect became a platform where I could blend my technical learning with practical application, resulting in a project that not only serves a meaningful purpose but also significantly advanced my development skills.</p><br>    <h2 class='text-2xl' style='color: #d6d3d1'>Key Features</h2>\n    <ul class='list-decimal'>\n        <li><strong>Custom User Authentication</strong> | Implemented using JWT tokens to secure the platform.</li>\n        <li><strong>Role-Based Access Control</strong> | Three primary user roles with conditional access based on user permissions.</li>\n        <li><strong>Dynamic Content Feed</strong> | A main feed displaying various post types (e.g., Events, Announcements), with user interaction through comments.</li>\n        <li><strong>Event Management</strong> | Creation of groups and tasks within events, allowing for user assignment to specific tasks.</li>\n        <li><strong>Centralized Calendar</strong> | A unified calendar displaying all events for easy access and planning.</li>\n        <li><strong>Group Chat</strong> | Integrated with the Stream API to enable real-time communication within groups.</li>\n        <li><strong>Attendance Tracking</strong> | Attendance is managed via QR codes assigned to each member, facilitating efficient tracking at events.</li>\n    </ul>",
     "imgUrls": [
-      "/church-connect/main.png",
-      "/church-connect/1.jpg",
-      "/church-connect/2.jpg",
-      "/church-connect/3.jpg",
-      "/church-connect/4.jpg",
-      "/church-connect/5.jpg",
-      "/church-connect/6.jpg",
-      "/church-connect/7.jpg"
+      "https://storage.theopanclass.ro/church-connect/main.png",
+      "https://storage.theopanclass.ro/church-connect/1.jpg",
+      "https://storage.theopanclass.ro/church-connect/2.jpg",
+      "https://storage.theopanclass.ro/church-connect/3.jpg",
+      "https://storage.theopanclass.ro/church-connect/4.jpg",
+      "https://storage.theopanclass.ro/church-connect/5.jpg",
+      "https://storage.theopanclass.ro/church-connect/6.jpg",
+      "https://storage.theopanclass.ro/church-connect/7.jpg"
     ],
-    "url": "https://github.com/mathiasmihalceadev/church-connect"
+    "url": "https://github.com/mathiasmihalceadev/church-connect",
+    "category": ["web-app"]
   },
   {
     "name": "NoteLink Web App",
     "slug": "note-link",
-    "technologies": [
-      "Vue.js",
-      "Tailwind CSS",
-      "Pinia",
-      "Local Storage"
-    ],
+    "technologies": ["Vue.js", "Tailwind CSS", "Pinia", "Local Storage"],
     "description": "<p>Vue.js was the first JavaScript framework I ever learned and I still consider it to be the best, but this is a discussion for another time. After completing a Vue course, to master its ups and downs, I decided to build a note-taking app. To focus on diving deep into this front-end framework, I kept the backend simple—actually, I didn’t use a backend at all, opting to store all the data in local storage.</p> <br><p>I drew design inspiration from Dribbble and then got to work. Through this project, I practiced my JavaScript skills while deepening my understanding of key Vue concepts such as the virtual DOM, computed properties and watchers, event handling, and routing with Vue Router. I also created a store using Pinia.</p><br> <h2 class='text-2xl' style='color: #d6d3d1'>Key Features</h2><ul><li>CRUD operations (frontend only) for notes and to-dos.</li>\n        <li>Trash functionality.</li>\n        <li>Filtering notes based on tags.</li>\n        <li>Clean and modern layout.</li>\n        <li>Search functionality.</li>\n    </ul>",
     "imgUrls": [
-      "/note-link/main.jpg",
-      "/note-link/1.jpg",
-      "/note-link/3.jpg",
-      "/note-link/2.jpg",
-      "/note-link/4.jpg"
+      "https://storage.theopanclass.ro/note-link/main.jpg",
+      "https://storage.theopanclass.ro/note-link/1.jpg",
+      "https://storage.theopanclass.ro/note-link/3.jpg",
+      "https://storage.theopanclass.ro/note-link/2.jpg",
+      "https://storage.theopanclass.ro/note-link/4.jpg"
     ],
-    "url": "https://github.com/mathiasmihalceadev/note-link"
+    "url": "https://github.com/mathiasmihalceadev/note-link",
+    "category": ["web-app"]
   },
   {
     "name": "SwagnSend First Website",
@@ -57,9 +54,10 @@
     ],
     "description": "<p>This was my first major project in WordPress, which I worked on during my summer internship in 2023 at MBE Web Services. The client, based in Australia, wanted to build a custom shop for his merchandise.</p><br>\n\n<p>We used a page builder for the simple main pages, but we had to develop a custom plugin from scratch to create <strong>shortcodes</strong> for the product archive page, checkout page, and single product page. This project gave me the opportunity to practice my PHP and JavaScript skills, as I wrote code for the custom plugin. It also introduced me to WordPress and WooCommerce development.</p><br>\n\n<p>My primary responsibilities included implementing the design for all the pages, writing CSS in <strong>SASS</strong> format with variables for better reusability, and working on the checkout page, where users needed the ability to <strong>upload multiple files</strong>, such as logos to be inscribed on the merchandise.</p><br><p>The client requested a preview feature for each product within a modal. To implement this, we wrote jQuery code with Ajax to make <strong>API calls</strong> from the frontend to the WordPress backend. This allowed us to retrieve and display the necessary data for each product.</p>",
     "imgUrls": [
-      "/swagnsend-first-design/1.webp"
+      "https://storage.theopanclass.ro/swagnsend-first-design/1.webp"
     ],
-    "url": "https://swagnsend.com/"
+    "url": "https://swagnsend.com/",
+    "category": ["wordpress", "plugin-development"]
   },
   {
     "name": "SwagnSend New Design",
@@ -74,10 +72,9 @@
       "Ajax"
     ],
     "description": "<p>The SwagNSend team wanted to redesign their website, so Stefan from MBE Web Services reached out to me for this new project. I received the design files in Adobe Illustrator and got to work. Building on the foundation of the previous design and expanding the custom plugin we had already created was a significant advantage, making the job smoother overall.</p><br>\n\n<p>Of course, I encountered some challenges with certain design elements, but nothing that couldn’t be resolved with some tried-and-true CSS and JavaScript. The main challenge this time was coding the mini-cart from scratch, which involved making API calls through Ajax for real-time updates on the frontend. I also had to create the filters for the archive and checkout pages from scratch.</p><br>\n\nIn the end, this project significantly deepened my web development knowledge across multiple areas. I believe that the SwagNSend experience (both the initial and this follow-up project) has been invaluable for an inexperienced developer like me. I learned a great deal.",
-    "imgUrls": [
-      "/swagnsend-new-design/1.jpg"
-    ],
-    "url": "https://1483ff7bef.nxcli.io/"
+    "imgUrls": ["https://storage.theopanclass.ro/swagnsend-new-design/1.jpg"],
+    "url": "https://1483ff7bef.nxcli.io/",
+    "category": ["wordpress", "plugin-development"]
   },
   {
     "name": "Fast Track Digital Website",
@@ -91,10 +88,9 @@
       "JavaScript"
     ],
     "description": "<p>I received the design from MBE Web Services in Figma and was tasked with implementing it in Elementor for a pixel-perfect result. While most of the work was straightforward, I had to use some shortcodes for elements that couldn't be handled directly in Elementor. I also installed essential plugins for image optimization and caching.</p>",
-    "imgUrls": [
-      "/fast.jpg"
-    ],
-    "url": "https://fasttrackdigital.net/"
+    "imgUrls": ["https://storage.theopanclass.ro/fast.jpg"],
+    "url": "https://fasttrackdigital.net/",
+    "category": ["wordpress"]
   },
   {
     "name": "Online Multistore",
@@ -108,10 +104,36 @@
       "JavaScript"
     ],
     "description": "<p>The main challenge of this project was syncing WooCommerce products across two websites. Both sites had the same catalog of around 10,000 products, but each followed different shopping rules. For example, one site required a minimum order of $1,000, and products with stock below 50 on one site or below 10 on the other couldn't be purchased.</p><br>\n\n<p>To address this, I first wrote a script that added a custom post meta to products on both websites, using their IDs for identification. Then, I set up a WordPress Multisite network and developed a plugin to sync stock levels automatically. Whenever a product was purchased on one site, the stock was updated on the other. Additionally, if a product was created, updated, trashed, or deleted on one site, the same action was mirrored on the second site.</p>\n\n<br><p>Finally, I customized the installed theme using Elementor, along with some custom CSS and JavaScript, to meet the client's specific needs.</p>",
-    "imgUrls": [
-      "/germag.jpg"
-    ],
-    "url": "https://germag.ro/"
+    "imgUrls": ["https://storage.theopanclass.ro/germag.jpg"],
+    "url": "https://germag.ro/",
+    "category": ["wordpress"]
+  },
+  {
+    "name": "Medicinal Ecommerce Website Redesign",
+    "slug": "medicinal-ecommerce-redesign",
+    "technologies": ["Wordpress", "CSS", "Elementor", "JavaScript", "PHP"],
+    "description": "<p>I was the sole developer for this project, coming up with creative ideas and building the website from the ground up. I installed WordPress and essential plugins for security, SEO, backups, performance, forms, and the page builder. I also wrote custom HTML, CSS, and Vanilla JavaScript for specific design elements and worked on improving the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
+    "imgUrls": ["https://storage.theopanclass.ro/medicinal.jpg"],
+    "url": "https://ayurmed.ro/",
+    "category": ["wordpress"]
+  },
+  {
+    "name": "Vitamin Therapy Website",
+    "slug": "vitamin-therapy",
+    "technologies": ["Wordpress", "CSS", "Elementor", "JavaScript", "PHP"],
+    "description": "<p>I was the sole developer for this project, coming up with creative ideas and building the website from the ground up. I installed WordPress and essential plugins for security, SEO, backups, performance, forms, and the page builder. I also wrote custom HTML, CSS, and Vanilla JavaScript for specific design elements and worked on improving the website's loading speed.</p><br>\n\n<p>This website is one of the projects where I had complete creative freedom to design and develop it exactly how I envisioned.</p>",
+    "imgUrls": ["https://storage.theopanclass.ro/homevitamin.jpg"],
+    "url": "https://homevitamin.ro/",
+    "category": ["wordpress"]
+  },
+  {
+    "name": "Local Church Website",
+    "slug": "protector-church",
+    "technologies": ["Wordpress", "CSS", "Elementor", "JavaScript", "PHP"],
+    "description": "<p>I was the sole developer for this project, coming up with creative ideas and building the website from the ground up. I installed WordPress and essential plugins for security, SEO, backups, performance, forms, and the page builder. I also wrote custom HTML, CSS, and Vanilla JavaScript for specific design elements and worked on improving the website's loading speed.</p><br>\n\n<p>This website is one of the projects where I had complete creative freedom to design and develop it exactly how I envisioned.</p>",
+    "imgUrls": ["https://storage.theopanclass.ro/protector.jpg"],
+    "url": "https://protector.theopanclass.ro/",
+    "category": ["wordpress"]
   },
   {
     "name": "Online Bidding Platform",
@@ -126,26 +148,9 @@
       "CSS"
     ],
     "description": "<p>For this website, the client aimed to build a real-time bidding platform for pigeons. The project began with the installation of WooCommerce and a bidding plugin. However, due to issues with the existing plugin, I developed a custom plugin to fix those problems and introduce functionalities tailored to the client's needs.</p><br>\n\n<p>One major feature I implemented was a user-specific bidding budget. This involved creating a new database table to track bidding history, enabling effective monitoring of user budgets. I also developed a log file to record all bids and budget updates, which served as an excellent debugging tool.</p><br>\n\nThe client requested a modal for the bidding form, so I utilized Ajax to make API calls to the backend to retrieve product IDs, ensuring the bidding process functioned correctly. Additionally, I added custom fields to the signup form and wrote shortcodes for elements that couldn't be created with Elementor, such as a list of the latest bids and next/previous buttons on the product page.<p><br>\n\n<p>Subsequently, the client wanted to incorporate an online marketplace into the website. I built a form from scratch for goods and services creation, including a file upload feature. I also implemented CRUD operations within the user dashboard, allowing users to manage their posts, which were displayed on the main page for 30 days.</p><br>\n\nIt's worth noting that the client was quite particular about the design and chose not to follow my recommendations, so my focus remained primarily on functionality. Although the client eventually abandoned the project—leaving no pigeons for bidding or posts on the marketplace—the website remains fully functional. This experience was highly educational, enhancing both my critical thinking and programming skills.",
-    "imgUrls": [
-      "/pigeons.jpg"
-    ],
-    "url": "#"
-  },
-  {
-    "name": "Medicinal Ecommerce Website Redesign",
-    "slug": "medicinal-ecommerce-redesign",
-    "technologies": [
-      "Wordpress",
-      "CSS",
-      "Elementor",
-      "JavaScript",
-      "PHP"
-    ],
-    "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
-    "imgUrls": [
-      "/medicinal.jpg"
-    ],
-    "url": "https://ayurmed.ro/"
+    "imgUrls": ["https://storage.theopanclass.ro/pigeons.jpg"],
+    "url": "#",
+    "category": ["wordpress"]
   },
   {
     "name": "Cargo Transport Website",
@@ -159,121 +164,71 @@
       "PHP"
     ],
     "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I created the design from scratch in Figma and structured the information given by the client in a modern manner. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
-    "imgUrls": [
-      "/transport.jpg"
-    ],
-    "url": "https://pndspedition.com/"
+    "imgUrls": ["https://storage.theopanclass.ro/transport.jpg"],
+    "url": "https://pndspedition.com/",
+    "category": ["wordpress"]
   },
   {
     "name": "Townhall Website",
     "slug": "townhall-website",
-    "technologies": [
-      "Wordpress",
-      "Elementor",
-      "CSS",
-      "JavaScript",
-      "PHP"
-    ],
+    "technologies": ["Wordpress", "Elementor", "CSS", "JavaScript", "PHP"],
     "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I also installed the theme and adapted the design to meet the client's specific needs. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
-    "imgUrls": [
-      "/plopeni.jpg"
-    ],
-    "url": "https://primariaplopeni.ro/"
+    "imgUrls": ["https://storage.theopanclass.ro/plopeni.jpg"],
+    "url": "https://primariaplopeni.ro/",
+    "category": ["wordpress"]
   },
   {
     "name": "Smart Apartment Complex Website",
     "slug": "smart-apartament-complex",
-    "technologies": [
-      "Wordpress",
-      "Elementor",
-      "CSS",
-      "JavaScript",
-      "PHP"
-    ],
+    "technologies": ["Wordpress", "Elementor", "CSS", "JavaScript", "PHP"],
     "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I also installed the theme and adapted the design to meet the client's specific needs. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
-    "imgUrls": [
-      "/ferrucio.jpg"
-    ],
-    "url": "https://ferucciotower.ro/"
+    "imgUrls": ["https://storage.theopanclass.ro/ferrucio.jpg"],
+    "url": "https://ferucciotower.ro/",
+    "category": ["wordpress"]
   },
   {
     "name": "Non-Profit Organization Website",
     "slug": "non-profit-organization",
-    "technologies": [
-      "Wordpress",
-      "Elementor",
-      "CSS",
-      "JavaScript",
-      "PHP"
-    ],
+    "technologies": ["Wordpress", "Elementor", "CSS", "JavaScript", "PHP"],
     "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I also installed the theme and adapted the design to meet the client's specific needs. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
-    "imgUrls": [
-      "/strop.webp"
-    ],
-    "url": "https://stropdedragoste.ro/"
+    "imgUrls": ["https://storage.theopanclass.ro/strop.webp"],
+    "url": "https://stropdedragoste.ro/",
+    "category": ["wordpress"]
   },
   {
     "name": "Local News Website",
     "slug": "local-news-website",
-    "technologies": [
-      "Wordpress",
-      "Elementor",
-      "CSS",
-      "JavaScript",
-      "PHP"
-    ],
+    "technologies": ["Wordpress", "Elementor", "CSS", "JavaScript", "PHP"],
     "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I also installed the theme and adapted the design to meet the client's specific needs. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
-    "imgUrls": [
-      "/news.jpg"
-    ],
-    "url": "https://www.observatorulph.ro/"
+    "imgUrls": ["https://storage.theopanclass.ro/news.jpg"],
+    "url": "https://www.observatorulph.ro/",
+    "category": ["wordpress"]
   },
   {
     "name": "Meat Shop Website",
     "slug": "meat-shop-website",
-    "technologies": [
-      "Wordpress",
-      "Elementor",
-      "CSS",
-      "JavaScript",
-      "PHP"
-    ],
+    "technologies": ["Wordpress", "Elementor", "CSS", "JavaScript", "PHP"],
     "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I also installed the theme and adapted the design to meet the client's specific needs. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
-    "imgUrls": [
-      "/meat.jpg"
-    ],
-    "url": "https://dalisedralinvest.ro/"
+    "imgUrls": ["https://storage.theopanclass.ro/meat.jpg"],
+    "url": "https://dalisedralinvest.ro/",
+    "category": ["wordpress"]
   },
   {
     "name": "Beauty&Spa Website",
     "slug": "beauty-spa-website",
-    "technologies": [
-      "Wordpress",
-      "Gutenberg",
-      "CSS",
-      "JavaScript",
-      "PHP"
-    ],
+    "technologies": ["Wordpress", "Gutenberg", "CSS", "JavaScript", "PHP"],
     "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I also installed the theme and adapted the design to meet the client's specific needs. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
-    "imgUrls": [
-      "/beauty.jpg"
-    ],
-    "url": "https://sunshinemed.ro/"
+    "imgUrls": ["https://storage.theopanclass.ro/beauty.jpg"],
+    "url": "https://sunshinemed.ro/",
+    "category": ["wordpress"]
   },
   {
     "name": "Residential Complex Website",
     "slug": "residential-complex-website",
-    "technologies": [
-      "Wordpress",
-      "Elementor",
-      "CSS",
-      "JavaScript",
-      "PHP"
-    ],
+    "technologies": ["Wordpress", "Elementor", "CSS", "JavaScript", "PHP"],
     "description": "<p>I was responsible for installing WordPress and essential plugins, including those for security, SEO, backups, performance, forms, and the page builder. I also installed the theme and adapted the design to meet the client's specific needs. Additionally, I wrote custom HTML, CSS, and Vanilla JavaScript for particular design elements and optimized the website's loading speed.</p><br>\n\n<p>It's important to note that the client had specific requirements, which limited my ability to fully implement my design ideas and perspective on the project.</p>",
-    "imgUrls": [
-      "/complex.jpg"
-    ],
-    "url": "https://bucegi12.ro/"
+    "imgUrls": ["https://storage.theopanclass.ro/complex.jpg"],
+    "url": "https://bucegi12.ro/",
+    "category": ["wordpress"]
   }
 ]
